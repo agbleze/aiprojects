@@ -1,0 +1,474 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linus portfolio></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- <div class="logo">
+            <img src="img/Linus_snow.jpeg" alt="">
+        </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Linus</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Data scientist and Developer</p>
+        <img src="img/Linus_snow.jpeg" alt="my-pic" class="intro__img">
+    </section> -->
+
+    <!--About me-->
+    <section class="about-me" id="about">
+
+        <button class="btn-blog">
+            <a href="https://agbleze.github.io/DS_blog/" target="_blank">
+                BLOG
+            </a>
+        </button>
+
+        <h2 class="section__title section__title--about"> </h2>
+        <p class="section__subtitle section__subtitle--about">Data Scientist and Developer</p>
+        
+        <div class="about-me__body">
+            <h4> AI Engineer | ML Engineer | Data Scientist | GTS-Aligned | Entrepreneurial Mindset </h4>
+
+            <p> I design and deploy intelligent systems—from proof of concept to production—that balance
+                accuracy, cost, and speed. By optimizing big-data pipelines and implementing robust MLOps,
+                I’ve cut time-to-market by 40 % and reduced infrastructure costs by 30 %.
+                
+            </p>
+
+            <p> My playbook includes production-ready AI patterns, continuous monitoring loops, and automated
+                retraining workflows that keep models sharp in real-world conditions.  
+
+                <i>Let’s build data-driven solutions that scale, adapt, and deliver.</i>
+            </p>
+        </div>
+
+        <img src="img/Linus_snow.jpeg" alt="" class="about-me__img">
+    </section>
+
+    <!--My services-->
+    <section class="my-service" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+
+            <div class="service">
+                <h3>Data visualization </h3>
+                <p>
+                    Data visualization is done at almost all stages of an analysis. I pay
+                    particular attention to choosing the right plot to communicate results and
+                    preprocessed data.
+                </p>
+
+                <button class = "btn-read"> 
+                    <a href = "dataviz-dygraph.html" target="_blank">
+                    Read more ...
+                    </a>
+                </button>
+            </div> <!--/service-->
+
+            <div class="service">
+                <h3>Exploratory data analysis </h3>
+                <p>
+                    With data at my disposal, I go through the initial stages of translating
+                    business problems and research questions into analytical ones structured
+                    as data science project. I do this by undertaking descriptive analysis to 
+                    understand essential features of the dataset in order to devise the most 
+                    appropriate method of analysis, provide answers to business questions and 
+                    further inferential data analysis
+                </p>
+
+                <button class = "btn-read">
+                    <a href="hierarchical-clustering-tutorial.html" target="_blank">
+                        Read more ...
+                    </a>
+                    
+                </button>
+            </div> <!--/service-->
+    
+            <div class="service">
+                <h3>Machine Learning</h3>
+                <p> 
+                    Beyond data exploration is machine Learning, where models are 
+                    developed to solve prediction and classification problems. 
+                    Hyperparameter tuning is done to optimized models and select the best
+                    model among several others.
+                </p>
+
+                <button class = "btn-read">
+                    <a href="https://agbleze.github.io/DS_blog/posts/2022-09-10-sales-hypothesis-analysis/"
+                        target="_blank">
+                        Read more ...
+                    </a>
+                    
+                </button>
+            </div> <!--/service-->
+    
+            <div class="service">
+                <h3>Forecasting and time series analysis </h3>
+                <p> 
+                    Forecasting and time series analysis forms an important aspect of 
+                    data analysis for longitudinal datasets. Among others, I analyze
+                    trend and seasonality and use that to develop forecasting models
+                    of good accuracy. I also incorporate analysis of predictors to determine
+                    their influence for scenario forecasting.
+                </p>
+
+                <!-- <button class = "btn-read">Read more ...</button> -->
+            </div> <!--/service-->
+
+            <div class="service">
+                <h3>Geospatial analysis </h3>
+                <p>
+                    Data with a spatial dimension needs a special focus, domain knowledge
+                    and expertise which I possess. Typically, I assess human-environment 
+                    interaction with respect to space and time. The focus is on accounting 
+                    for the influence of location and visualizing results with maps at 
+                    various scale. I provide services for both business and socio-economic 
+                    reseaches.
+                </p>
+
+                <!-- <button class = "btn-read">Read more ...</button> -->
+            </div> <!--/service-->
+
+            <div class="service">
+                <h3>Natural Language Processing </h3>
+                <p>
+                    Text and unstructured data remain a rich data mine everywhere and 
+                    with the right expertise can be transform to power applications. With my competence 
+                    in Natural Language Processing (NLP), I implement complete pipeline for text data analysis 
+                    that leads to sentiment analysis, document classification, topic modeling, Name Entity Recognition (NER) 
+                    among others. I have employed Deep Learning to develop and deploy NLP applications in production 
+                    making predictions that empower business applications for growth.   
+                </p>
+
+                <button class = "btn-read">
+                    <a href="https://agbleze.github.io/DS_blog/posts/2022-10-02-classifying-review-statements-using-deep-learning-with-pytorch/"
+                        target="_blank">  
+                        Read more ...
+                    </a>
+                    
+                </button>
+
+                <!-- <button class = "btn-read">Read more ...</button> -->
+            </div> <!--/service-->
+
+            <div class="service">
+                <h3>Dashboard and web app Development </h3>
+                <p>
+                    Get your professional interactive dashboards developed to 
+                    communicate insights gained from data analytics.
+                </p>
+
+                <!-- <button class = "btn-read">Read more ...</button> -->
+            </div> <!--/service-->
+        </div> <!--/service-->
+
+        <!-- <a href="work" class="btn"> My work</a> -->
+    </section>
+
+    
+
+    <!--My work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Some of my works</h2>
+        <p class="section__subtitle section__subtitle--work">Completed projects</p>
+
+
+        <p class="section__subtitle section__subtitle--work">Developing web application  and KPI dashboard design</p>
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <!-- <div class="portfolio_item">
+
+            </div> -->
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/USElections_shinyapp/" class="portfolio__item" target="_blank">
+                    <img src="img/dashboard.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="https://agbleze.shinyapps.io/USElections_shinyapp/" target="_blank">
+                            Web application for data visualization
+                        </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- product kpi monitory -->
+            <div class="portfolio-card">
+                <a href="http://kpidashapp.pythonanywhere.com/" class="portfolio__item" target="_blank">
+                    <img src="img/kpi-monitory.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="http://kpidashapp.pythonanywhere.com/" target="_blank">
+                            Product KPI Dashboard Design
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-card"></div> 
+
+        </div>
+        <br>
+
+
+       
+
+
+        <p class="section__subtitle section__subtitle--work">Machine Learning Applications</p>
+        <div class="portfolio">    
+
+            <!--Portfolio 3-->
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/Naive_Bayes_classifiers/" class="portfolio__item" target="_blank">
+                    <img src="img/naive-model.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="https://agbleze.shinyapps.io/Naive_Bayes_classifiers/" target="_blank">
+                            Predicting Product line upgrade
+                        </a> 
+                    </button>
+                </div>
+    
+            </div>
+            
+            
+            <!--prt 5-->
+            <!-- <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/GA-Analytics/" class="portfolio__item" target="_blank">
+                    <img src="img/KPI-monitor.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">Google Web analytics</button>
+                </div>
+            </div> -->
+            
+
+            <!--prt 6-->
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/Envio-Product-analytics/" class="portfolio__item" target="_blank">
+                    <img src="img/envio.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="https://agbleze.shinyapps.io/Envio-Product-analytics/" target="_blank">
+                            Product data analytics
+                        </a>
+
+
+                    </button>
+                </div>
+            </div>
+
+           
+
+            <!--prt 7-->
+            <div class="portfolio-card">
+                <a href="http://linagb.pythonanywhere.com/" class="portfolio__item" target="_blank">
+                    <img src="img/online_ads_prediction.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="http://linagb.pythonanywhere.com/" target="_blank">
+                            Advertiser Ads clicks prediction
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <!--prt 8-->
+            <div class="portfolio-card">
+                <a href="http://bookinggauger.pythonanywhere.com/" class="portfolio__item" target="_blank">
+                    <img src="img/accommdate-days-predict.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="http://bookinggauger.pythonanywhere.com/" target="_blank">
+                            Predicting number of days to be booked for accommodation
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+
+            <!--prt 9-->
+            <div class="portfolio-card">
+                <a href="http://carbonanalytics-linagb.pythonanywhere.com/" class="portfolio__item" target="_blank">
+                    <img src="img/carbon_emission_models.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="http://carbonanalytics-linagb.pythonanywhere.com/" target="_blank">
+                            Predictive Modeling for Carbon emissions
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            <!--prt 10-->
+            <div class="portfolio-card">
+                <a href="http://optimalbidder.pythonanywhere.com/" class="portfolio__item" target="_blank">
+                    <img src="img/ads_auction_bidder.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="http://optimalbidder.pythonanywhere.com/" target="_blank">
+                            Optimal Advertiser Ads Auction Bidder
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+
+            <!--prt 11-->
+            <div class="portfolio-card">
+                <a href="http://statusprediction.pythonanywhere.com/" class="portfolio__item" target="_blank">
+                    <img src="img/student_status_ROC.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="http://statusprediction.pythonanywhere.com/" target="_blank">
+                            Predicting Student assignment status
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+
+        <!--prt 4  Timeseries & Forecasting  -->
+        <p class="section__subtitle section__subtitle--work">Timeseries Analysis & Forecasting</p>  
+        <div class="portfolio">  
+            <div class="portfolio-card"></div> 
+
+            <div class="portfolio-card">
+                <a href=" https://agbleze.shinyapps.io/GA-Analytics/" class="portfolio__item" target="_blank">
+                    <img src="img/transaction-forecasting.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio"> 
+                        <a href="https://agbleze.shinyapps.io/GA-Analytics/" target="_blank">
+                            Forecasting Revenue and KPI for Google Merchandise store
+                        </a> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card"></div> 
+        </div>
+        <br>
+
+
+
+        <p class="section__subtitle section__subtitle--work">Geospatial Analysis</p>
+        <div class="portfolio">   
+            <div class="portfolio-card"></div> 
+
+            <!--Portfolio item 02-->
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/GIS-Ecosystem-services-shiny-app/" class="portfolio__item" target="_blank">
+                    <img src="img/geospatial-analysis.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="https://agbleze.shinyapps.io/GIS-Ecosystem-services-shiny-app/" target="_blank">
+                            Geospatial analysis of Ecosystem Services
+                        </a>  
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card"></div>
+
+        </div>
+        <br>
+
+
+        <p class="section__subtitle section__subtitle--work">Natural Language Processing with Deep Learning</p>
+        <div class="portfolio">   
+            <div class="portfolio-card"></div> 
+
+            <!--Portfolio item 02-->
+            <div class="portfolio-card">
+                <a href="https://aiapps.shinyapps.io/review_predictor/" class="portfolio__item" target="_blank">
+                    <img src="img/review_pred.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">
+                        <a href="https://aiapps.shinyapps.io/review_predictor/" target="_blank">
+                            Predicting product recommendation based on reviews
+                        </a>  
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card"></div>
+
+        </div>
+      
+    </section>
+
+    <footer class="footer">
+        <a href="mailto:linusagbleze@gmail.com" class="foot_link">Send me a mail: linusagbleze@gmail.com </a>
+        <ul class="social-list">   
+            <li class="social-list__item">
+                <a href="https://agbleze.github.io/DS_blog/" class="social-list__link" target="_blank">
+                    <i class="fa-solid fa-blog">BLOG</i>
+                </a>
+
+            </li>   
+
+            <li class="social-list__item">
+                <a href="https://github.com/agbleze/machine_learning_api" class="social-list__link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+
+</body>    
+</html>
